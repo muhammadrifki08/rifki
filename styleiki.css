@@ -1,0 +1,191 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+li{
+  list-style: none;
+  font-weight: bold;
+}
+
+header {
+  background-image: url(https://data.1freewallpapers.com/detail/skateboard-skate-bw-legs-sneakers.jpg);
+  height: 115vh;
+  background-size: cover;
+  background-position: center;
+}
+
+p{
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 47px;
+  float: left;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 25px;
+  border: 1px solid;
+  transition: 0,2s;
+  margin-top: 10px;
+}
+
+ul li a:hover{
+  background-color: black;
+  color: black:
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+.logo img{
+  float: left;
+  width: 180px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title h1{
+  font-family: sans-serif;
+  padding-top: 180px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+.title h2{
+  font-family: sans-serif;
+  padding-top: 20px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 10px 0  100px 0;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.9px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-shadow: 0 -1px -1px rgb(0, 0, 0);
+  -moz-box-shadow: 0 4px 0 rgb(0, 0, 0), 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 0 rgb(0, 0, 0), 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 0 rgb(0, 0, 0), 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  opacity: 1;
+  text-shadow: 0 -1px -1px rgb(5, 8, 8);
+  -moz-box-shadow: 0 4px 0 rgb(5, 8, 8), 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 4px 0 rgb(5, 8, 8), 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 0 rgb(5, 8, 8), 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.signup {
+  background-color: white;
+  font-weight: bold;
+}
+
+.facebook {
+  background-color: white;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.twitter {
+  background-color: white;
+  font-weight: bold;
+}
+
+.explore {
+  background-color: white;
+  font-weight: bold;
+}
+
+.footer {
+  height: 20px;
+  padding: 30px 40px;
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.footer-logo{
+  font-size: 36px;
+  float: left;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 720px) {
+  .container {
+  width: 100%;
+}
+
+@media (min-width: 720px) and (max-width: 992px;){
+  .container {
+  width: 50%;
+}
